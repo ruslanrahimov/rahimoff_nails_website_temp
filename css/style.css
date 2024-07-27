@@ -72,6 +72,12 @@ h1 {
   padding: 30px 0;
 }
 
+.nav__logo {
+  width: 12%;
+}
+.logo {
+  max-width: 100%;
+}
 table {
   width: 100%;
   border-collapse: collapse;
@@ -107,7 +113,7 @@ tr:nth-child(even) {
     justify-content: center;
   }
   .logo {
-    max-width: 100%;
+    max-width: 50%;
   }
   .appoint__button--desktop {
     display: none;
