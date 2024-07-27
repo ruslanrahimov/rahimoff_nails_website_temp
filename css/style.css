@@ -45,6 +45,9 @@ h1 {
   background-color: #e63948;
 }
 
+.appoint__button--mobile {
+  display: none;
+}
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -53,10 +56,16 @@ h1 {
 .main {
   flex: 1 0 auto;
 }
+
+.copyright__block {
+  text-align: center;
+}
+
 .footer__inner {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
+
 .footer {
   flex-shrink: 0;
   border-top: 1px solid #000;
@@ -78,4 +87,46 @@ th {
 }
 tr:nth-child(even) {
   background-color: #f9f9f9;
+}
+
+.privacy__block {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1210px) {
+  .container,
+  .header__nav-inner {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .appoint__button--desktop {
+    display: none;
+  }
+  .appoint__button--mobile {
+    display: block;
+  }
+
+  .header__nav-inner {
+    justify-content: center;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .appoint__button {
+    text-align: center;
+    padding: 18px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer__inner {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }

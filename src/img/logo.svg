@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 611.43 191.23">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #231f20;
+      }
+
+      .cls-2 {
+        font-size: 138.58px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: Forum, Forum;
+      }
+
+      .cls-3 {
+        font-size: 64.05px;
+        letter-spacing: .15em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <g>
+      <text class="cls-2" transform="translate(0 115.02)"><tspan x="0" y="0">RAHIMOFF</tspan></text>
+      <g>
+        <text class="cls-3" transform="translate(124.41 175.35)"><tspan x="0" y="0">nail studio</tspan></text>
+        <circle class="cls-1" cx="110.79" cy="162.2" r="3"/>
+        <circle class="cls-1" cx="500.64" cy="162.2" r="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

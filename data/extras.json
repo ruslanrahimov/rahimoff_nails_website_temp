@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "service": "Çıkartma (Jel)",
+      "masterPrice": 250,
+      "topMasterPrice": null
+    },
+    {
+      "service": "Çıkartma (Akrilik ve Tips)",
+      "masterPrice": 350,
+      "topMasterPrice": null
+    },
+    {
+      "service": "French veya Ombre (10 parmak)",
+      "masterPrice": 150,
+      "topMasterPrice": 150
+    },
+    {
+      "service": "İnci tozu (10 parmak)",
+      "masterPrice": 100,
+      "topMasterPrice": 100
+    },
+    {
+      "service": "Nail Art (parmak başı)",
+      "masterPrice": "20-50",
+      "topMasterPrice": "20-50"
+    },
+    {
+      "service": "Tek tırnak protez tamir",
+      "masterPrice": 100,
+      "topMasterPrice": 100
+    }
+  ]
+}
