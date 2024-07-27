@@ -101,6 +101,14 @@ tr:nth-child(even) {
   }
 }
 @media screen and (max-width: 450px) {
+  .nav__logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .logo {
+    max-width: 100%;
+  }
   .appoint__button--desktop {
     display: none;
   }
