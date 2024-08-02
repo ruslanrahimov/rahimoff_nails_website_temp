@@ -2,22 +2,19 @@
   "data": [
     {
       "service": "Manikür",
-      "masterPrice": 300,
+
       "topMasterPrice": 450
     },
     {
       "service": "Medikal Manikür",
-      "masterPrice": 350,
       "topMasterPrice": 500
     },
     {
       "service": "Kalıcı oje (Manikür ve jel güçledirme dahil)",
-      "masterPrice": 550,
       "topMasterPrice": 750
     },
     {
       "service": "Jel tırnak veya Protez (Manikür ve Kalıcı oje dahil)",
-      "masterPrice": 700,
       "topMasterPrice": 900
     }
   ]

@@ -16,10 +16,10 @@ const createTable = (data, tableType) => {
     return "<p>No data available</p>";
   }
 
-  const MASTER = "Uzman";
+  //  const MASTER = "Uzman";
   const TOP_MASTER = "Üst Düzey Uzman";
 
-  const tableHeaders = [tableType, MASTER, TOP_MASTER];
+  const tableHeaders = [tableType, TOP_MASTER];
 
   let table = "<table>";
 
