@@ -17,7 +17,7 @@ const createTable = (data, tableType) => {
   }
 
   //  const MASTER = "Uzman";
-  const TOP_MASTER = "Üst Düzey Uzman";
+  const TOP_MASTER = "Fiyat";
 
   const tableHeaders = [tableType, TOP_MASTER];
 

@@ -2,7 +2,7 @@
   "data": [
     {
       "service": "Pedikür (Parmak ve topuk bakımı dahil)",
-      "topMasterPrice": 900
+      "topMasterPrice": 800
     },
     {
       "service": "Medikal Pedikür (nasır, batık ve derin çatlak bakımı dahil)",
@@ -10,7 +10,7 @@
     },
     {
       "service": "Kalıcı oje (Pedikür dahil)",
-      "topMasterPrice": 1000
+      "topMasterPrice": 950
     }
   ]
 }
