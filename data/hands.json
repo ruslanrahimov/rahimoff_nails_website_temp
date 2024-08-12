@@ -1,5 +1,5 @@
 {
-  "data": [
+  "tr": [
     {
       "service": "Manikür",
 
@@ -15,6 +15,43 @@
     },
     {
       "service": "Jel tırnak veya Protez (Manikür ve Kalıcı oje dahil)",
+      "topMasterPrice": 850
+    }
+  ],
+  "en": [
+    {
+      "service": "Manicure",
+      "topMasterPrice": 400
+    },
+    {
+      "service": "Medical Manicure",
+      "topMasterPrice": 500
+    },
+    {
+      "service": "Gel polish (including manicure and gel enhancement)",
+      "topMasterPrice": 700
+    },
+    {
+      "service": "Gel Nails (including manicure and gel polish)",
+      "topMasterPrice": 850
+    }
+  ],
+  "ru": [
+    {
+      "service": "Маникюр",
+
+      "topMasterPrice": 400
+    },
+    {
+      "service": "Мед. Маникюр",
+      "topMasterPrice": 500
+    },
+    {
+      "service": "Маникюр с покрытием",
+      "topMasterPrice": 700
+    },
+    {
+      "service": "Наращивание (включая маникюр и покрытие)",
       "topMasterPrice": 850
     }
   ]

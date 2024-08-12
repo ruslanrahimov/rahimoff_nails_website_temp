@@ -27,8 +27,11 @@
             <div class="header__nav-inner">
                 <div class="nav__logo">
                 </div>
-                <a href="https://api.whatsapp.com/message/VOKLGRUT35SZM1?autoload=1&app_absent=0"
-                    class="appoint__button appoint__button--desktop">Randevu Al</a>
+                <select name="languages" id="languages" class="select-language">
+                    <option value="tr">TR</option>
+                    <option value="en">EN</option>
+                    <option value="ru">RU</option>
+                </select>
             </div>
         </nav>
     </header>
@@ -37,10 +40,10 @@
         <div class="price-list--hands"></div>
         <div class="price-list--foots"></div>
         <div class="price-list--extras"></div>
-        <small> <em>Son güncelleme: 01.08.2024</em></small>
+        <small> <em class="update-date">Son güncelleme: 01.08.2024</em></small>
         <br>
         <a href="https://api.whatsapp.com/message/VOKLGRUT35SZM1?autoload=1&app_absent=0"
-            class="appoint__button appoint__button--mobile">Randevu Al</a>
+            class="appoint__button ">Randevu Al</a>
         <br>
     </main>
     <footer class="footer footer__outer">
@@ -50,6 +53,7 @@
         </div>
 
     </footer>
+    <script src="./js/language.js"></script>
     <script src="./js/script.js"></script>
 </body>
 

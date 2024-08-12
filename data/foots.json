@@ -1,5 +1,5 @@
 {
-  "data": [
+  "tr": [
     {
       "service": "Pedikür (Parmak ve topuk bakımı dahil)",
       "topMasterPrice": 800
@@ -10,6 +10,34 @@
     },
     {
       "service": "Kalıcı oje (Pedikür dahil)",
+      "topMasterPrice": 950
+    }
+  ],
+  "en": [
+    {
+      "service": "Pedicure (including toes, heels and soles care)",
+      "topMasterPrice": 800
+    },
+    {
+      "service": "Medical Pedicure (including care for calluses, ingrown nails, and deep cracks)",
+      "topMasterPrice": 1000
+    },
+    {
+      "service": "Gel polish (including pedicure)",
+      "topMasterPrice": 950
+    }
+  ],
+  "ru": [
+    {
+      "service": "Педикюр (включая уход за пальцами ног, пятками и ступнями)",
+      "topMasterPrice": 800
+    },
+    {
+      "service": "Медицинский педикюр (включая обработку  мозолей, вросшего ногтя и глубоких трещин)",
+      "topMasterPrice": 1000
+    },
+    {
+      "service": "Педикюр с покрытием",
       "topMasterPrice": 950
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "data": [
+  "tr": [
     {
       "service": "Çıkartma (Jel)",
       "topMasterPrice": 250
@@ -22,6 +22,58 @@
     },
     {
       "service": "Tek tırnak protez tamir",
+      "topMasterPrice": 100
+    }
+  ],
+  "en": [
+    {
+      "service": "Gel nails removal",
+      "topMasterPrice": 250
+    },
+    {
+      "service": "Akrigel nails removal",
+      "topMasterPrice": 350
+    },
+    {
+      "service": "French or Ombre (10 fingers)",
+      "topMasterPrice": 150
+    },
+    {
+      "service": "Pearl powder (10 fingers)",
+      "topMasterPrice": 100
+    },
+    {
+      "service": "Nail Art (per finger)",
+      "topMasterPrice": "20-50"
+    },
+    {
+      "service": "Single nail repair",
+      "topMasterPrice": 100
+    }
+  ],
+  "ru": [
+    {
+      "service": "Снятие (Гель)",
+      "topMasterPrice": 250
+    },
+    {
+      "service": "Снятие (Акриль или Гелевые типсы)",
+      "topMasterPrice": 350
+    },
+    {
+      "service": "Френч, Омбре",
+      "topMasterPrice": 150
+    },
+    {
+      "service": "Втирка",
+      "topMasterPrice": 100
+    },
+    {
+      "service": "Nail Art (один ноготь)",
+      "topMasterPrice": "20-50"
+    },
+    {
+      "service": "Наращивание одного ногтя",
       "topMasterPrice": 100
     }
   ]

@@ -11,15 +11,14 @@ const getPrices = (fileName) => async () => {
   }
 };
 
-const createTable = (data, tableType) => {
+const createTable = (data, initialHeaders) => {
   if (!Array.isArray(data) || data.length === 0) {
     return "<p>No data available</p>";
   }
 
-  //  const MASTER = "Uzman";
-  const TOP_MASTER = "Fiyat";
+  const headers = { ...initialHeaders };
 
-  const tableHeaders = [tableType, TOP_MASTER];
+  const tableHeaders = [headers.category, headers.price];
 
   let table = "<table>";
 
@@ -48,7 +47,14 @@ const createTable = (data, tableType) => {
   return table;
 };
 
+function setPriceList(prices, headers) {
+  const handsPriceList = createTable(prices, headers);
+  document.querySelector(".price-list--hands").innerHTML = handsPriceList;
+}
+
 (async () => {
+  const languageSelector = document.querySelector(".select-language");
+
   const getHandsPrices = getPrices("hands");
   const getFootsPrices = getPrices("foots");
   const getExtrasPrices = getPrices("extras");
@@ -57,18 +63,72 @@ const createTable = (data, tableType) => {
   const footsPrices = await getFootsPrices();
   const extrasPrices = await getExtrasPrices();
 
-  if (handsPrices && handsPrices.data) {
-    const handsPriceList = createTable(handsPrices.data, "El");
-    document.querySelector(".price-list--hands").innerHTML = handsPriceList;
-  }
+  console.log(handsPrices);
+  console.log(footsPrices);
+  console.log(extrasPrices);
 
-  if (footsPrices && footsPrices.data) {
-    const footsPriceList = createTable(footsPrices.data, "Ayak");
-    document.querySelector(".price-list--foots").innerHTML = footsPriceList;
-  }
-
-  if (extrasPrices && extrasPrices.data) {
-    const extrasPriceList = createTable(extrasPrices.data, "Ekstra");
-    document.querySelector(".price-list--extras").innerHTML = extrasPriceList;
+  switch (languageSelector.value) {
+    case "tr":
+      if (handsPrices && handsPrices.tr) {
+        document.querySelector(".price-list--hands").innerHTML = createTable(
+          handsPrices.tr,
+          { category: "El", price: "Fiyat" }
+        );
+      }
+      if (footsPrices && footsPrices.tr) {
+        document.querySelector(".price-list--foots").innerHTML = createTable(
+          footsPrices.tr,
+          { category: "Ayak", price: "Fiyat" }
+        );
+      }
+      if (extrasPrices && extrasPrices.tr) {
+        document.querySelector(".price-list--extras").innerHTML = createTable(
+          extrasPrices.tr,
+          { category: "Ekstralar", price: "Fiyat" }
+        );
+      }
+      break;
+    case "en":
+      if (handsPrices && handsPrices.en) {
+        document.querySelector(".price-list--hands").innerHTML = createTable(
+          handsPrices.en,
+          { category: "Manicure", price: "Price" }
+        );
+      }
+      if (footsPrices && footsPrices.en) {
+        document.querySelector(".price-list--foots").innerHTML = createTable(
+          footsPrices.en,
+          { category: "Pedicure", price: "Price" }
+        );
+      }
+      if (extrasPrices && extrasPrices.en) {
+        document.querySelector(".price-list--extras").innerHTML = createTable(
+          extrasPrices.en,
+          { category: "Extras", price: "Price" }
+        );
+      }
+      break;
+    case "ru":
+      if (handsPrices && handsPrices.ru) {
+        document.querySelector(".price-list--hands").innerHTML = createTable(
+          handsPrices.ru,
+          { category: "Маникюр", price: "Цена" }
+        );
+      }
+      if (footsPrices && footsPrices.ru) {
+        document.querySelector(".price-list--foots").innerHTML = createTable(
+          footsPrices.ru,
+          { category: "Педикюр", price: "Цена" }
+        );
+      }
+      if (extrasPrices && extrasPrices.ru) {
+        document.querySelector(".price-list--extras").innerHTML = createTable(
+          extrasPrices.ru,
+          { category: "Допольнительно", price: "Цена" }
+        );
+      }
+      break;
+    default:
+      break;
   }
 })();
