@@ -17,7 +17,6 @@ const select = document.querySelector(".select-language");
 select.addEventListener("change", changeURLLanguage);
 
 function changeURLLanguage() {
-  console.log("Change");
   let lang = select.value;
   location.href = `${location.pathname}#${lang}`;
   location.reload();

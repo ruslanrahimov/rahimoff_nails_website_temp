@@ -63,10 +63,6 @@ function setPriceList(prices, headers) {
   const footsPrices = await getFootsPrices();
   const extrasPrices = await getExtrasPrices();
 
-  console.log(handsPrices);
-  console.log(footsPrices);
-  console.log(extrasPrices);
-
   switch (languageSelector.value) {
     case "tr":
       if (handsPrices && handsPrices.tr) {
