@@ -4,6 +4,16 @@ const staticElementsData = {
     en: "Last update: 01.08.2024",
     ru: "Последнее обновление: 01.08.2024",
   },
+  vat: {
+    tr: "Fiyatlarımıza KDV dahildir",
+    en: "Prices include VAT",
+    ru: "Цены включают в себя НДС",
+  },
+  creditCard: {
+    tr: "Kredi kartı geçerlidir",
+    en: "Accepting credit card payments",
+    ru: "Принимаем оплату кредитной картой",
+  },
   wpLink: {
     tr: "Randevu Al",
     en: "Book Now",
@@ -34,6 +44,9 @@ function changeLanguage() {
     staticElementsData["wpLink"][hash];
   document.querySelector(".update-date").innerHTML =
     staticElementsData["updateMessage"][hash];
+  document.querySelector(".vat").innerHTML = staticElementsData["vat"][hash];
+  document.querySelector(".credit-card").innerHTML =
+    staticElementsData["creditCard"][hash];
 }
 
 changeLanguage();

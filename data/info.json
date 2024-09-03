@@ -1,0 +1,23 @@
+{
+  "tr": [
+    {
+      "last_update": "Son güncelleme: 01.08.2024",
+      "vat": "Fiyatlarımıza KDV dahildir",
+      "credit_card": "Kredi kartı geçerlidir"
+    }
+  ],
+  "en": [
+    {
+      "last_update": "Last update: 01.08.2024",
+      "vat": "Prices include VAT",
+      "credit_card": "Accepting credit card payments"
+    }
+  ],
+  "ru": [
+    {
+      "last_update": "Последнее обновление: 01.08.2024",
+      "vat": "Цены ключают в себя НДС",
+      "credit_card": "Принимаем оплатну кредитной картой"
+    }
+  ]
+}
