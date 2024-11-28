@@ -39,22 +39,28 @@
       <nav class="header__nav header__nav-outer">
         <div class="header__nav-inner">
           <div class="nav__logo"></div>
-          <select name="languages" id="languages" class="select-language">
+          <ul class="list-of-links list-of-links-desktop">
+            <li class="list-of-links-item"><a href="https://goo.gl/maps/hak26kZJwH26vM6x7" class="nav-link"><img src="./src/img/map.svg" width="24" height="24"><span class="location"></span></a></li>
+            <li class="list-of-links-item"><a href="https://wa.me/message/VOKLGRUT35SZM1" class="nav-link"><img src="./src/img/whatsapp.svg" width="24" height="24"><span class="booking"></span></a></li>
+            <li class="list-of-links-item"><a href="tel:+905060552137" class="nav-link"><img src="./src/img/phone.svg" width="24" height="24"><span class="phone">+90 (506) 055 21 37</span></a></li>
+          </ul>
+          <select name="languages" id="languages" class="select-language select-language-desktop">
             <option value="tr">TR</option>
             <option value="en">EN</option>
             <option value="ru">RU</option>
           </select>
         </div>
+
       </nav>
     </header>
     <main class="main container">
       <br /><small>
-        <em class="update-date">Son güncelleme: 01.08.2024</em></small
+        <em class="update-date"></em></small
       >
       <br />
-      <small> <em class="vat">Fiyatlarımıza KDV dahildir</em></small>
+      <small> <em class="vat"></em></small>
       <br />
-      <small> <em class="credit-card">Kredi kartı geçerlidir</em></small>
+      <small> <em class="credit-card"></em></small>
       <br />
       <br />
       <div class="price-list--hands"></div>
@@ -75,8 +81,31 @@
         </div>
       </div>
     </footer>
+    <footer id="mobile-footer">
+      <div id="mobile-menu">
+        <div id="mobile-footer-container">
+          <div class="mobile-link">
+            <a href="https://goo.gl/maps/hak26kZJwH26vM6x7" class="text-center footer-mobile-link"><span class="location"></span></a>
+          </div>
+          <div class="mobile-link">
+            <a href="https://wa.me/message/VOKLGRUT35SZM1" class="text-center footer-mobile-link"><span class="booking"></span></a>
+          </div>
+          <div class="mobile-link">
+            <a href="tel:+905060552137" class="text-center footer-mobile-link">+90 (506) 055 21 37</a>
+          </div>
+        </div>
+      </div>
+      <div id="mobile-footer-close">
+        <button id="mobile-footer-btn">
+          <div class="mobile-btn-close is-rotating-back">
+            <span></span>
+          </div>
+        </button>
+      </div>
+    </footer>
     <script src="./js/language.js"></script>
     <script src="./js/script.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
 

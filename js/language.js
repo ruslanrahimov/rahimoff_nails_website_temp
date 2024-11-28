@@ -1,8 +1,8 @@
 const staticElementsData = {
   updateMessage: {
-    tr: "Son güncelleme: 01.08.2024",
-    en: "Last update: 01.08.2024",
-    ru: "Последнее обновление: 01.08.2024",
+    tr: "Son fiyat güncellemesi: 01.08.2024",
+    en: "Last price update: 01.08.2024",
+    ru: "Последнее обновление цен: 01.08.2024",
   },
   vat: {
     tr: "Fiyatlarımıza KDV dahildir",
@@ -10,15 +10,25 @@ const staticElementsData = {
     ru: "Цены включают в себя НДС",
   },
   creditCard: {
-    tr: "Kredi kartı geçerlidir",
-    en: "Accepting credit card payments",
-    ru: "Принимаем оплату кредитной картой",
+    tr: "Kredi kartı geçerlidir ve ekstra ücret yok!",
+    en: "Accepting credit card payments and no extra charges!",
+    ru: "Принимаем оплатну кредитной картой. Дополнительная плата не взимается!",
   },
   wpLink: {
     tr: "Randevu Al",
     en: "Book Now",
     ru: "Записаться",
   },
+  footerPointLinkName: {
+    tr: "Konum",
+    en: "Location",
+    ru: "Локация",
+  },
+  footerWpLinkName:{
+    tr: "Randevu",
+    en: "Book Now",
+    ru: "Запись",
+  }
 };
 
 const languagesArray = ["tr", "en", "ru"];
@@ -47,6 +57,16 @@ function changeLanguage() {
   document.querySelector(".vat").innerHTML = staticElementsData["vat"][hash];
   document.querySelector(".credit-card").innerHTML =
     staticElementsData["creditCard"][hash];
+
+  const locationLinksName = document.querySelectorAll(".location");
+  locationLinksName.forEach(locationLinkName => {
+    locationLinkName.innerHTML = staticElementsData["footerPointLinkName"][hash];
+  })
+
+  const wpLinksName = document.querySelectorAll(".booking");
+  wpLinksName.forEach(wpLinkName => {
+    wpLinkName.innerHTML = staticElementsData["footerWpLinkName"][hash];
+  })
 }
 
 changeLanguage();

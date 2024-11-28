@@ -2,56 +2,78 @@
   "tr": [
     {
       "service": "Manikür",
-
+      "description": "El tırnaklarının şekillendirilmesi, tırnak çevresi bakımı ve cildin nemlendirilmesini içerir.",
+      "extras":"",
       "topMasterPrice": 400
     },
     {
       "service": "Medikal Manikür",
+      "description":"Tırnak sağlığına odaklanan detaylı bir bakım; özellikle hassas ciltler ve özel ihtiyaçlar için uygundur.",
+      "extras":"",
       "topMasterPrice": 500
     },
     {
-      "service": "Kalıcı oje (Manikür ve jel güçledirme dahil)",
+      "service": "Kalıcı Oje",
+      "description": "Dayanıklı, uzun ömürlü ve estetik bir tırnak görünümü sağlar.",
+      "extras": "Dahil Olan Hizmetler: manikür, jel güçlendirme, eski uygulamanın çıkartılması (sadece jel ve kalıcı oje)",
       "topMasterPrice": 700
     },
     {
-      "service": "Jel tırnak veya Protez (Manikür ve Kalıcı oje dahil)",
+      "service": "Jel tırnak veya Protez",
+      "description":"Daha uzun, güçlü ve bakımlı tırnaklar için ideal bir seçenektir.",
+      "extras": "Dahil Olan Hizmetler: manikür, kalıcı oje uygulaması,<br> eski uygulamanın çıkartılması (sadece jel ve kalıcı oje), kırılmış tırnakların tamir edilmesi",
       "topMasterPrice": 850
     }
   ],
   "en": [
     {
-      "service": "Manicure",
+      "service": "Regular",
+      "description": "Includes shaping of the nails, cuticle care, and moisturizing the skin.",
+      "extras":"",
       "topMasterPrice": 400
     },
     {
-      "service": "Medical Manicure",
+      "service": "Medical",
+      "description": "A detailed treatment focused on nail health, suitable for sensitive skin and special care needs.",
+      "extras":"",
       "topMasterPrice": 500
     },
     {
-      "service": "Gel polish (including manicure and gel enhancement)",
+      "service": "Gel polish",
+      "description": "Provides durable, long-lasting, and aesthetic nail appearance.",
+      "extras":"Included Services: Manicure, gel strengthening, removal of old applications (excluding tips or acrylic).",
       "topMasterPrice": 700
     },
     {
-      "service": "Gel Nails (including manicure and gel polish)",
+      "service": "Gel Nails",
+      "description": "Ideal for achieving longer, stronger, and well-maintained nails.",
+      "extras":"Included Services: Manicure, gel polish application,<br> removal of old applications (excluding tips or acrylic), and repair of broken nails.",
       "topMasterPrice": 850
     }
   ],
   "ru": [
     {
-      "service": "Маникюр",
-
+      "service": "Стандартный",
+      "description": "Включает придание формы ногтям, уход за кутикулой и увлажнение кожи.",
+      "extras":"",
       "topMasterPrice": 400
     },
     {
-      "service": "Мед. Маникюр",
+      "service": "Детальный",
+      "description": "Детальный уход, направленный на здоровье ногтей. Подходит для чувствительной кожи и особых случаев.",
+      "extras":"",
       "topMasterPrice": 500
     },
     {
       "service": "Маникюр с покрытием",
+      "description": "Обеспечивает прочное, долговечное и эстетичное покрытие ногтей.",
+      "extras":"Включенные услуги: Маникюр, укрепление гелем, снятие предыдущего покрытия (кроме типс и акрила).",
       "topMasterPrice": 700
     },
     {
-      "service": "Наращивание (включая маникюр и покрытие)",
+      "service": "Наращивание",
+      "description": "Идеальный выбор для длинных, крепких и ухоженных ногтей.",
+      "extras":"Включенные услуги: Маникюр, наращивание, нанесение гель-лака, снятие предыдущего покрытия (кроме типсов и акрила), ремонт сломанных ногтей.",
       "topMasterPrice": 850
     }
   ]

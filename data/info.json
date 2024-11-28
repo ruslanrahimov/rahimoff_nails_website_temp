@@ -1,23 +1,23 @@
 {
   "tr": [
     {
-      "last_update": "Son güncelleme: 01.08.2024",
+      "last_update": "Son fiyat güncellemesi: 01.08.2024",
       "vat": "Fiyatlarımıza KDV dahildir",
-      "credit_card": "Kredi kartı geçerlidir"
+      "credit_card": "Kredi kartı geçerlidir ve ekstra ücret yok!"
     }
   ],
   "en": [
     {
-      "last_update": "Last update: 01.08.2024",
+      "last_update": "Last price update: 01.08.2024",
       "vat": "Prices include VAT",
-      "credit_card": "Accepting credit card payments"
+      "credit_card": "Accepting credit card payments and no extra charges!"
     }
   ],
   "ru": [
     {
-      "last_update": "Последнее обновление: 01.08.2024",
+      "last_update": "Последнее обновление цен: 01.08.2024",
       "vat": "Цены ключают в себя НДС",
-      "credit_card": "Принимаем оплатну кредитной картой"
+      "credit_card": "Принимаем оплатну кредитной картой. Дополнительная плата не взимается!"
     }
   ]
 }

@@ -20,36 +20,45 @@ const createTable = (data, initialHeaders) => {
 
   const tableHeaders = [headers.category, headers.price];
 
-  let table = "<table>";
+  let table = "<table>"; //open table tag
 
-  table += "<thead><tr>";
+  table += "<thead><tr>"; //open table header tag
   tableHeaders.forEach((header) => {
     table += `<th>${header}</th>`;
   });
-  table += "</tr></thead>";
+  table += "</tr></thead>"; //close table header tag
 
-  table += "<tbody>";
+  table += "<tbody>"; //open table body
+
   data.forEach((row) => {
-    table += "<tr>";
+
+    table += "<tr>"; //open current table row
+
     Object.values(row).forEach((value, index) => {
       if (index === 0) {
-        table += `<td>${value}</td>`;
-      } else {
+        table += `<td><span style="font-weight: bold">${value}</span><br>`;
+      } else if (index === 1) {
+        table += `${value}<br>`;
+      }else if(index === 2) {
+        table += `<span style="color: #e51414">${value}</span></td>`;
+      }
+      else{
         table += `<td>${value != null ? value + "&#8378;" : "-"}</td>`;
       }
     });
-    table += "</tr>";
-  });
-  table += "</tbody>";
 
-  table += "</table><br>";
+    table += "</tr>"; //close current table row
+  });
+
+  table += "</tbody>"; //close body
+
+  table += "</table><br>"; //close table
 
   return table;
 };
 
 function setPriceList(prices, headers) {
-  const handsPriceList = createTable(prices, headers);
-  document.querySelector(".price-list--hands").innerHTML = handsPriceList;
+  document.querySelector(".price-list--hands").innerHTML = createTable(prices, headers);
 }
 
 (async () => {
@@ -68,19 +77,19 @@ function setPriceList(prices, headers) {
       if (handsPrices && handsPrices.tr) {
         document.querySelector(".price-list--hands").innerHTML = createTable(
           handsPrices.tr,
-          { category: "El", price: "Fiyat" }
+          { category: "El bakımı", price: "Fiyat" }
         );
       }
       if (footsPrices && footsPrices.tr) {
         document.querySelector(".price-list--foots").innerHTML = createTable(
           footsPrices.tr,
-          { category: "Ayak", price: "Fiyat" }
+          { category: "Ayak bakımı  ", price: "Fiyat" }
         );
       }
       if (extrasPrices && extrasPrices.tr) {
         document.querySelector(".price-list--extras").innerHTML = createTable(
           extrasPrices.tr,
-          { category: "Ekstralar", price: "Fiyat" }
+          { category: "Ekstra Hizmetler", price: "Fiyat" }
         );
       }
       break;
@@ -88,19 +97,19 @@ function setPriceList(prices, headers) {
       if (handsPrices && handsPrices.en) {
         document.querySelector(".price-list--hands").innerHTML = createTable(
           handsPrices.en,
-          { category: "Manicure", price: "Price" }
+          { category: "Hands Care", price: "Price" }
         );
       }
       if (footsPrices && footsPrices.en) {
         document.querySelector(".price-list--foots").innerHTML = createTable(
           footsPrices.en,
-          { category: "Pedicure", price: "Price" }
+          { category: "Foot Care", price: "Price" }
         );
       }
       if (extrasPrices && extrasPrices.en) {
         document.querySelector(".price-list--extras").innerHTML = createTable(
           extrasPrices.en,
-          { category: "Extras", price: "Price" }
+          { category: "Extra Services", price: "Price" }
         );
       }
       break;
@@ -108,13 +117,13 @@ function setPriceList(prices, headers) {
       if (handsPrices && handsPrices.ru) {
         document.querySelector(".price-list--hands").innerHTML = createTable(
           handsPrices.ru,
-          { category: "Маникюр", price: "Цена" }
+          { category: "Уход за руками", price: "Цена" }
         );
       }
       if (footsPrices && footsPrices.ru) {
         document.querySelector(".price-list--foots").innerHTML = createTable(
           footsPrices.ru,
-          { category: "Педикюр", price: "Цена" }
+          { category: "Уход за ногами", price: "Цена" }
         );
       }
       if (extrasPrices && extrasPrices.ru) {

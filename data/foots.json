@@ -1,43 +1,61 @@
 {
   "tr": [
     {
-      "service": "Pedikür (Parmak ve topuk bakımı dahil)",
+      "service": "Pedikür",
+      "description": "Ayak tırnaklarının şekillendirilmesi, tırnak çevresi bakımı ve topukların pürüzsüz hale getirilmesi işlemlerini kapsar.<br> Yumuşak ve sağlıklı ayaklar için ideal bir bakım.",
+      "extras":"",
       "topMasterPrice": 800
     },
     {
-      "service": "Medikal Pedikür (nasır, batık ve derin çatlak bakımı dahil)",
+      "service": "Medikal Pedikür",
+      "description":"Ayak sağlığına özel olarak hazırlanmış derinlemesine bir bakım. Hassas ayak problemlerine çözüm sunan kapsamlı bir hizmettir.",
+      "extras":"Dahil Olan Hizmetler: Nasırların temizlenmesi, çatlakların bakımı, Onikoliz",
       "topMasterPrice": 1000
     },
     {
-      "service": "Kalıcı oje (Pedikür dahil)",
+      "service": "Kalıcı Oje",
+      "description": "Bu işlem, ayak tırnaklarınıza doğal ve şık bir görünüm kazandırırken uzun süre bozulmayan bir estetik sağlar",
+      "extras": "Dahil Olan Hizmetler: Pedikür, Ayak tırnaklarına özel formüle edilmiş, sağlığa uygun ve dayanıklı ürünler ile kalıcı oje uygulaması",
       "topMasterPrice": 950
     }
   ],
   "en": [
     {
-      "service": "Pedicure (including toes, heels and soles care)",
+      "service": "Pedicure",
+      "description": "Includes shaping of toenails, cuticle care, and smoothing of heels. Perfect for soft and healthy feet.",
+      "extras":"",
       "topMasterPrice": 800
     },
     {
-      "service": "Medical Pedicure (including care for calluses, ingrown nails, and deep cracks)",
+      "service": "Pedicure Medical",
+      "description": "A deep care treatment tailored to foot health. A comprehensive service designed to address sensitive foot issues.",
+      "extras":"Included Services: Removal of calluses, Care for cracks, Onycholysis",
       "topMasterPrice": 1000
     },
     {
-      "service": "Gel polish (including pedicure)",
+      "service": "Gel polish",
+      "description": "This treatment enhances the natural beauty of your toenails, ensuring a polished look that lasts for weeks.",
+      "extras":"Included Services: Pedicure, Application of gel polish using specially formulated, durable, and foot-friendly products",
       "topMasterPrice": 950
     }
   ],
   "ru": [
     {
-      "service": "Педикюр (включая уход за пальцами ног, пятками и ступнями)",
+      "service": "Педикюр",
+      "description": "Включает придание формы ногтям на ногах, уход за кутикулой и обработку пяток для гладкости. Идеально для мягких и здоровых ног.",
+      "extras":"",
       "topMasterPrice": 800
     },
     {
-      "service": "Медицинский педикюр (включая обработку  мозолей, вросшего ногтя и глубоких трещин)",
+      "service": "Медицинский педикюр",
+      "description": "Глубокий уход, направленный на здоровье ног.",
+      "extras":"Включенные услуги: Удаление мозолей, Уход за трещинами, Онихолизис ",
       "topMasterPrice": 1000
     },
     {
       "service": "Педикюр с покрытием",
+      "description": "Процедура придаёт ногтям на ногах естественную красоту и аккуратный вид, который сохраняется надолго.",
+      "extras":"Включенные услуги: Педикюр, Нанесение гель-лака с использованием специально разработанных, безопасных и стойких продуктов для ног",
       "topMasterPrice": 950
     }
   ]
