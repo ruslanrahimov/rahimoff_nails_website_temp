@@ -228,7 +228,7 @@ display: none;
   }
 
   .mobile-link {
-    padding: 1.3em 0;
+    padding: 1em 0;
   }
 
   .mobile-link a {
@@ -243,7 +243,7 @@ display: none;
 
   #mobile-footer-btn {
     position: absolute;
-    bottom: 75px;
+    bottom: 55px;
     right: 7px;
     width: 40px;
     height: 40px;
