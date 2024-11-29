@@ -58,15 +58,15 @@ function changeLanguage() {
   document.querySelector(".credit-card").innerHTML =
     staticElementsData["creditCard"][hash];
 
-  const locationLinksName = document.querySelectorAll(".location");
-  locationLinksName.forEach(locationLinkName => {
-    locationLinkName.innerHTML = staticElementsData["footerPointLinkName"][hash];
-  })
-
-  const wpLinksName = document.querySelectorAll(".booking");
-  wpLinksName.forEach(wpLinkName => {
-    wpLinkName.innerHTML = staticElementsData["footerWpLinkName"][hash];
-  })
+  // const locationLinksName = document.querySelectorAll(".location");
+  // locationLinksName.forEach(locationLinkName => {
+  //   locationLinkName.innerHTML = staticElementsData["footerPointLinkName"][hash];
+  // })
+  //
+  // const wpLinksName = document.querySelectorAll(".booking");
+  // wpLinksName.forEach(wpLinkName => {
+  //   wpLinkName.innerHTML = staticElementsData["footerWpLinkName"][hash];
+  // })
 }
 
 changeLanguage();
