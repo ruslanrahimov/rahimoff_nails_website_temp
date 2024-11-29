@@ -10,7 +10,7 @@ const staticElementsData = {
     ru: "Цены включают в себя НДС",
   },
   creditCard: {
-    tr: "Kredi kartı geçerlidir ve ekstra ücret yok!",
+    tr: "KREDİ KARTI GEÇERLİDİR VE EKSTRA ÜCRET YOK!",
     en: "Accepting credit card payments and no extra charges!",
     ru: "Принимаем оплатну кредитной картой. Дополнительная плата не взимается!",
   },
