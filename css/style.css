@@ -217,7 +217,7 @@ display: none;
   }
 
   #mobile-menu {
-    background: hsl(172.73deg 99.33% 9.64% / 86%);
+    background: rgba(230,57,72, .9);
   }
 
   #mobile-footer-container {
@@ -228,8 +228,7 @@ display: none;
   }
 
   .mobile-link {
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding: 1.3em 0;
   }
 
   .mobile-link a {
@@ -244,7 +243,7 @@ display: none;
 
   #mobile-footer-btn {
     position: absolute;
-    bottom: 35px;
+    bottom: 75px;
     right: 7px;
     width: 40px;
     height: 40px;
