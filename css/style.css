@@ -72,9 +72,13 @@ select {
   display: flex;
   flex-grow: 1;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
+.links-outer {
+  display: flex;
+  gap: 2rem;
+}
 .nav-link{
   display: flex;
   color: var(--mint-collor);
@@ -163,6 +167,9 @@ tr:nth-child(even) {
   background-color: #f9f9f9;
 }
 
+.nav-link img {
+  filter: invert(1); /* Adjust icon colors for visibility */
+}
 
 .privacy__block {
   display: flex;
