@@ -145,7 +145,7 @@ select {
 .nav__logo {
   width: 120px;
   height: 50px;
-  background: url(../src/img/logo.webp) no-repeat center center;
+  background: url(../src/img/web-logo-ch.webp) no-repeat center center;
   background-size: contain;
 }
 
@@ -180,6 +180,37 @@ tr:nth-child(even) {
   display: none;
 }
 
+.old-price {
+  position: relative;
+  font-size: 16px;
+  color: #b0b0b0;
+  text-decoration: line-through;
+  display: flex;
+  align-items: center;
+}
+
+.old-price .icon {
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.new-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff3e3e;
+  display: flex;
+  align-items: center;
+}
+
+.new-price .icon {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.info-container{
+  display: flex;
+  justify-content: space-between;
+}
 
 @media screen and (max-width: 1210px) {
   .container,
@@ -235,7 +266,7 @@ display: none;
   }
 
   .mobile-link {
-    padding: 1em 0;
+    padding: .7em 0;
   }
 
   .mobile-link a {

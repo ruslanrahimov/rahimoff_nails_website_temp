@@ -18,7 +18,7 @@ const createTable = (data, initialHeaders) => {
 
   const headers = { ...initialHeaders };
 
-  const tableHeaders = [headers.category, headers.price];
+  const tableHeaders = [headers.category, headers.oldPrice];
 
   let table = "<table>"; //open table tag
 
@@ -34,18 +34,31 @@ const createTable = (data, initialHeaders) => {
 
     table += "<tr>"; //open current table row
 
-    Object.values(row).forEach((value, index) => {
-      if (index === 0) {
+    const rowDataObject = row;
+
+    for (const key in rowDataObject) {
+      const value = rowDataObject[key];
+
+      if (key === "service") {
         table += `<td><span style="font-weight: bold">${value}</span><br>`;
-      } else if (index === 1) {
+      } else if (key === "description") {
         table += `${value}<br>`;
-      }else if(index === 2) {
+      } else if (key === "extras") {
         table += `<span style="color: #e51414">${value}</span></td>`;
+      } else if (key === "oldPrice") {
+        if(rowDataObject["newPrice"] !== "") {
+          table += `<td><span class="old-price"><i class="icon">❌</i>${value != null && value !== "" ? value + "&#8378;" : ""}</span>`;
+        }else{
+          table += `<td>${value != null && value !== "" ? value + "&#8378;" : ""}`;
+        }
+      } else if (key === "newPrice") {
+        if (value != null && value !== "") {
+          table += `<span class="new-price"><i class="icon">🔥</i>${value + "&#8378;"}</span></td>`;
+        } else {
+          table += "</td>";
+        }
       }
-      else{
-        table += `<td>${value != null ? value + "&#8378;" : "-"}</td>`;
-      }
-    });
+    }
 
     table += "</tr>"; //close current table row
   });
@@ -77,19 +90,19 @@ function setPriceList(prices, headers) {
       if (handsPrices && handsPrices.tr) {
         document.querySelector(".price-list--hands").innerHTML = createTable(
           handsPrices.tr,
-          { category: "El bakımı", price: "Fiyat" }
+          { category: "El bakımı", oldPrice: "fiyat" }
         );
       }
       if (footsPrices && footsPrices.tr) {
         document.querySelector(".price-list--foots").innerHTML = createTable(
           footsPrices.tr,
-          { category: "Ayak bakımı  ", price: "Fiyat" }
+          { category: "Ayak bakımı  ", oldPrice: "fiyat" }
         );
       }
       if (extrasPrices && extrasPrices.tr) {
         document.querySelector(".price-list--extras").innerHTML = createTable(
           extrasPrices.tr,
-          { category: "Ekstra Hizmetler", price: "Fiyat" }
+          { category: "Ekstra Hizmetler", oldPrice: "fiyat" }
         );
       }
       break;
@@ -97,19 +110,19 @@ function setPriceList(prices, headers) {
       if (handsPrices && handsPrices.en) {
         document.querySelector(".price-list--hands").innerHTML = createTable(
           handsPrices.en,
-          { category: "Hands Care", price: "Price" }
+          { category: "Hands Care", oldPrice: "price" }
         );
       }
       if (footsPrices && footsPrices.en) {
         document.querySelector(".price-list--foots").innerHTML = createTable(
           footsPrices.en,
-          { category: "Foot Care", price: "Price" }
+          { category: "Foot Care", oldPrice: "price" }
         );
       }
       if (extrasPrices && extrasPrices.en) {
         document.querySelector(".price-list--extras").innerHTML = createTable(
           extrasPrices.en,
-          { category: "Extra Services", price: "Price" }
+          { category: "Extra Services", oldPrice: "price" }
         );
       }
       break;
@@ -117,19 +130,19 @@ function setPriceList(prices, headers) {
       if (handsPrices && handsPrices.ru) {
         document.querySelector(".price-list--hands").innerHTML = createTable(
           handsPrices.ru,
-          { category: "Уход за руками", price: "Цена" }
+          { category: "Уход за руками", oldPrice: "цена" }
         );
       }
       if (footsPrices && footsPrices.ru) {
         document.querySelector(".price-list--foots").innerHTML = createTable(
           footsPrices.ru,
-          { category: "Уход за ногами", price: "Цена" }
+          { category: "Уход за ногами", oldPrice: "цена" }
         );
       }
       if (extrasPrices && extrasPrices.ru) {
         document.querySelector(".price-list--extras").innerHTML = createTable(
           extrasPrices.ru,
-          { category: "Допольнительно", price: "Цена" }
+          { category: "Допольнительно", oldPrice: "цена" }
         );
       }
       break;

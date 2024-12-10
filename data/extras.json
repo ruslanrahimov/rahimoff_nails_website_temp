@@ -4,37 +4,43 @@
       "service": "Çıkartma (Jel)",
       "description": "Tırnak üzerindeki jel kaplamanın dikkatlice ve sağlığa uygun şekilde çıkartılması.",
       "extras":"Not: Bu listedeki çıkartma fiyatları yalnızca çıkartma işlemi yaptıran müşteriler için geçerlidir.<br> Yukarıdaki diğer hizmet paketlerinde çıkartma işlemi fiyatlara dahil edilmiştir.",
-      "topMasterPrice": 250
+      "oldPrice": 250,
+      "newPrice": 200
     },
     {
       "service": "Çıkartma (Akrilik ve Tips)",
       "description":"Akrilik veya tips uygulamaların profesyonel ve tırnaklara zarar vermeden çıkartılması.",
       "extras":"Not: Bu listedeki çıkartma fiyatları yalnızca çıkartma işlemi yaptıran müşteriler için geçerlidir.<br> Yukarıdaki diğer hizmet paketlerinde çıkartma işlemi fiyatlara dahil edilmiştir.",
-      "topMasterPrice": 350
+      "oldPrice": 350,
+      "newPrice": 300
     },
     {
       "service": "French veya Ombre (10 Parmak)",
       "description": "Tüm tırnaklara French stili veya Ombre (yumuşak renk geçişleri) uygulanır. Şık ve zarif bir görünüm sağlar.",
       "extras": "",
-      "topMasterPrice": 150
+      "oldPrice": 150,
+      "newPrice": ""
     },
     {
       "service": "İnci Tozu (10 Parmak)",
       "description":"Tırnaklara sedefli, parlak bir görünüm kazandıran özel inci tozu uygulaması. ",
       "extras": "Not: Fiyat kullanılan malzeme ve yoğunluğa göre değişebilir.",
-      "topMasterPrice": "100-200"
+      "oldPrice": "100-200",
+      "newPrice": ""
     },
     {
       "service": "Nail Art (Parmak Başı)",
       "description":"Tırnak başına sanatsal tasarımlar.",
       "extras": "Not: Fiyat, tasarımın karmaşıklığına ve kullanılan malzemeye göre belirlenir.",
-      "topMasterPrice": "10-50"
+      "oldPrice": "10-50",
+      "newPrice": ""
     },
     {
       "service": "Tek Tırnak Protez Tamiri",
       "description":"Tırnak başına sanatsal tasarımlar.",
       "extras": "Not: Bu listedeki tamir fiyatı yalnızca tamir işlemi yaptıran müşteriler için geçerlidir.<br> Yukarıdaki diğer hizmet paketlerinde tamir işlemi fiyatlara dahil edilmiştir.",
-      "topMasterPrice": 100
+      "oldPrice": 100,
+      "newPrice": ""
     }
   ],
   "en": [
@@ -42,37 +48,43 @@
       "service": "Removal (Gel)",
       "description": "Safe and professional removal of gel polish without damaging the natural nails.",
       "extras":"Note: The removal prices listed here apply only to standalone removal services.<br> Removal is already included in the prices of the services listed in the main price lists above.",
-      "topMasterPrice": 250
+      "oldPrice": 250,
+      "newPrice": 200
     },
     {
       "service": "Removal (Acrylic and Tips)",
       "description": "Careful removal of acrylic or tips applications in a way that protects the natural nails.",
       "extras":"Note: The removal prices listed here apply only to standalone removal services.<br> Removal is already included in the prices of the services listed in the main price lists above.",
-      "topMasterPrice": 350
+      "oldPrice": 350,
+      "newPrice": 300
     },
     {
       "service": "French or Ombre (10 Nails)",
       "description": "Application of a classic French style or Ombre design (soft color gradients) on all nails.<br> Perfect for a chic and elegant look.",
       "extras":"",
-      "topMasterPrice": 150
+      "oldPrice": 150,
+      "newPrice": ""
     },
     {
       "service": "Pearl Powder (10 Nails)",
       "description": "A special application that gives nails a pearlescent, shiny appearance. ",
       "extras": "Note: Price varies based on materials and intensity of the effect.",
-      "topMasterPrice": "100-200"
+      "oldPrice": "100-200",
+      "newPrice": ""
     },
     {
       "service": "Nail Art (Per Nail)",
       "description": "Artistic designs on individual nails.",
       "extras": "Note: The price depends on the complexity of the design and materials used.",
-      "topMasterPrice": "10-50"
+      "oldPrice": "10-50",
+      "newPrice": ""
     },
     {
       "service": "Single Nail Repair",
       "description": "Quick and aesthetic repair of broken or damaged prosthetic nails.",
       "extras": "Note: The repair prices listed here apply only to standalone removal services.<br> The repair is already included in the prices of the services listed in the main price lists above. ",
-      "topMasterPrice": 100
+      "oldPrice": 100,
+      "newPrice": ""
     }
   ],
   "ru": [
@@ -80,37 +92,43 @@
       "service": "Снятие покрытия (Гель)",
       "description": "Безопасное и профессиональное снятие гель-лака без повреждения натуральных ногтей.",
       "extras":"",
-      "topMasterPrice": 250
+      "oldPrice": 250,
+      "newPrice": 200
     },
     {
       "service": "Снятие покрытия (Акрил и Типсы)",
       "description": "Аккуратное снятие акрилового покрытия или типсов с сохранением здоровья натуральных ногтей.",
       "extras":"",
-      "topMasterPrice": 350
+      "oldPrice": 350,
+      "newPrice": 300
     },
     {
       "service": "Френч или Омбре (10 ногтей)",
       "description": "Классический френч (белые кончики) или омбре (плавный переход цветов) на всех ногтях.<br> Идеальный выбор для элегантного образа.",
       "extras":"",
-      "topMasterPrice": 150
+      "oldPrice": 150,
+      "newPrice": ""
     },
     {
       "service": "Перламутровая пудра (10 ногтей)",
       "description": "Специальное покрытие, придающее ногтям сияющий, перламутровый вид. ",
       "extras":"Примечание: Цена зависит от используемых материалов и интенсивности эффекта.",
-      "topMasterPrice": "100-200"
+      "oldPrice": "100-200",
+      "newPrice": ""
     },
     {
       "service": "Нейл-арт (за один ноготь)",
       "description": "Художественные дизайны на ногтях.",
       "extras":"Примечание: Стоимость зависит от сложности рисунка и используемых материалов.",
-      "topMasterPrice": "10-50"
+      "oldPrice": "10-50",
+      "newPrice": ""
     },
     {
       "service": "Ремонт одного ногтя (Протезирование)",
       "description": "Быстрый и эстетичный ремонт сломанного или поврежденного искусственного ногтя.",
       "extras":"",
-      "topMasterPrice": 100
+      "oldPrice": 100,
+      "newPrice": ""
     }
   ]
 }

@@ -1,8 +1,8 @@
 const staticElementsData = {
   updateMessage: {
-    tr: "Son fiyat güncellemesi: 01.08.2024",
-    en: "Last price update: 01.08.2024",
-    ru: "Последнее обновление цен: 01.08.2024",
+    tr: "Kampanyamız sadece 31.12.2024 kadar geçerlidir",
+    en: "Our offers are only valid until 31.12.2024.",
+    ru: "Наша акция действует только до 31.12.2024.",
   },
   vat: {
     tr: "Fiyatlarımıza KDV dahildir",

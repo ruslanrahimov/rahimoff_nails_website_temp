@@ -1,21 +1,21 @@
 {
   "tr": [
     {
-      "last_update": "Son fiyat güncellemesi: 01.08.2024",
+      "last_update": "Kampanyamız sadece 31.12.2024 kadar geçerlidir",
       "vat": "Fiyatlarımıza KDV dahildir",
       "credit_card": "Kredi kartı geçerlidir ve ekstra ücret yok!"
     }
   ],
   "en": [
     {
-      "last_update": "Last price update: 01.08.2024",
+      "last_update": "Our offers are only valid until 31.12.2024.",
       "vat": "Prices include VAT",
       "credit_card": "Accepting credit card payments and no extra charges!"
     }
   ],
   "ru": [
     {
-      "last_update": "Последнее обновление цен: 01.08.2024",
+      "last_update": "Наша акция действует только до 31.12.2024.",
       "vat": "Цены ключают в себя НДС",
       "credit_card": "Принимаем оплатну кредитной картой. Дополнительная плата не взимается!"
     }
