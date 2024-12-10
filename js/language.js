@@ -46,8 +46,7 @@ function changeLanguage() {
   let hash = window.location.hash;
   hash = hash.substring(1);
   if (!languagesArray.includes(hash)) {
-    location.href = location.pathname + "#tr";
-    location.reload();
+    hash = "tr";
   }
   select.value = hash;
   document.querySelector(".appoint__button").innerHTML =
