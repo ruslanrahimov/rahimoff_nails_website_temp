@@ -1,8 +1,8 @@
 const staticElementsData = {
   updateMessage: {
-    tr: "Kampanyamız sadece 31.12.2024 kadar geçerlidir",
-    en: "Our offers are only valid until 31.12.2024.",
-    ru: "Наша акция действует только до 31.12.2024.",
+    tr: "Kampanyamız sadece 31.01.2025 kadar geçerlidir",
+    en: "Our offers are only valid until 31.01.2025.",
+    ru: "Наша акция действует только до 31.01.2025.",
   },
   vat: {
     tr: "Fiyatlarımıza KDV dahildir",

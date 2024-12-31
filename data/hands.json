@@ -5,7 +5,7 @@
       "description": "El tırnaklarının şekillendirilmesi, tırnak çevresi bakımı ve cildin nemlendirilmesini içerir.",
       "extras":"",
       "oldPrice": 400,
-      "newPrice": 350
+      "newPrice": 300
     },
     {
       "service": "Medikal Manikür",
@@ -26,7 +26,7 @@
       "description":"Daha uzun, güçlü ve bakımlı tırnaklar için ideal bir seçenektir.",
       "extras": "Dahil Olan Hizmetler: manikür, uzatma, kalıcı oje uygulaması,<br> eski uygulamanın çıkartılması (sadece jel ve kalıcı oje), kırılmış tırnakların tamir edilmesi",
       "oldPrice": 850,
-      "newPrice": 700
+      "newPrice": 800
     }
   ],
   "en": [
@@ -35,7 +35,7 @@
       "description": "Includes shaping of the nails, cuticle care, and moisturizing the skin.",
       "extras":"",
       "oldPrice": 400,
-      "newPrice": 350
+      "newPrice": 300
     },
     {
       "service": "Medical",
@@ -56,7 +56,7 @@
       "description": "Ideal for achieving longer, stronger, and well-maintained nails.",
       "extras":"Included Services: Manicure, gel polish application,<br> removal of old applications (excluding tips or acrylic), and repair of broken nails.",
       "oldPrice": 850,
-      "newPrice": 700
+      "newPrice": 800
     }
   ],
   "ru": [
@@ -65,7 +65,7 @@
       "description": "Включает придание формы ногтям, уход за кутикулой и увлажнение кожи.",
       "extras":"",
       "oldPrice": 400,
-      "newPrice": 350
+      "newPrice": 300
     },
     {
       "service": "Детальный",
@@ -86,7 +86,7 @@
       "description": "Идеальный выбор для длинных, крепких и ухоженных ногтей.",
       "extras":"Включенные услуги: Маникюр, наращивание, нанесение гель-лака, снятие предыдущего покрытия (кроме типсов и акрила), ремонт сломанных ногтей.",
       "oldPrice": 850,
-      "newPrice": 700
+      "newPrice": 800
     }
   ]
 }

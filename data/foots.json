@@ -4,8 +4,8 @@
       "service": "Pedikür",
       "description": "Ayak tırnaklarının şekillendirilmesi, tırnak çevresi bakımı ve topukların pürüzsüz hale getirilmesi işlemlerini kapsar.<br> Yumuşak ve sağlıklı ayaklar için ideal bir bakım.",
       "extras":"",
-      "oldPrice": 800,
-      "newPrice": 700
+      "oldPrice": 850,
+      "newPrice": 750
     },
     {
       "service": "Medikal Pedikür",
@@ -28,7 +28,7 @@
       "description": "Includes shaping of toenails, cuticle care, and smoothing of heels. Perfect for soft and healthy feet.",
       "extras":"",
       "oldPrice": 800,
-      "newPrice": 700
+      "newPrice": 750
     },
     {
       "service": "Pedicure Medical",
@@ -51,7 +51,7 @@
       "description": "Включает придание формы ногтям на ногах, уход за кутикулой и обработку пяток для гладкости. Идеально для мягких и здоровых ног.",
       "extras":"",
       "oldPrice": 800,
-      "newPrice": 700
+      "newPrice": 750
     },
     {
       "service": "Медицинский педикюр",
