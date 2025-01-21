@@ -93,7 +93,7 @@ const createTable = (data, initialHeaders) => {
       } else if (key === "description") {
         table += `${value}<br>`;
       } else if (key === "extras") {
-        table += `<span style="color: #e51414">${value}</span></td>`;
+        table += `<span style="color: #AF1313">${value}</span></td>`;
       } else if (key === "oldPrice") {
         if(rowDataObject["newPrice"] !== "") {
           table += `<td><span class="old-price"><i class="icon">❌</i>${value != null && value !== "" ? value + "&#8378;" : ""}</span>`;
