@@ -1,7 +1,7 @@
-import extras from '../data/extras.json';
-import hands from '../data/hands.json'
-import foots from '../data/foots.json';
-import info from '../data/info.json';
+import extras from '../assets/data/extras.json';
+import hands from '../assets/data/hands.json'
+import foots from '../assets/data/foots.json';
+import info from '../assets/data/info.json';
 
 const languagesArray = ["tr", "en", "ru"];
 

@@ -1,7 +1,7 @@
 :root {
   --select-border: #777;
   --select-focus: blue;
-  --select-arrow: var(--select-border);
+  --select-arrow: #777;
   --important-collor: #e51414;
   --mint-collor: #01564b;
   --mint-collor-light: #04e0c3;
