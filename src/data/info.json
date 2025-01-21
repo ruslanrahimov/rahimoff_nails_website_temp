@@ -1,0 +1,31 @@
+{
+  "tr":
+    {
+      "updateMessage": "Kampanyamız sadece 31.01.2025 kadar geçerlidir",
+      "vat": "Fiyatlarımıza KDV dahildir",
+      "creditCard": "KREDİ KARTI GEÇERLİDİR VE EKSTRA ÜCRET YOK!",
+      "wpLink": "Randevu Al",
+      "footerPointLinkName": "Konum",
+      "footerWpLinkName": "Randevu"
+    }
+  ,
+  "en":
+    {
+      "updateMessage": "Our offers are only valid until 31.01.2025.",
+      "vat": "Prices include VAT",
+      "creditCard": "Accepting credit card payments and no extra charges!",
+      "wpLink": "Book Now",
+      "footerPointLinkName": "Location",
+      "footerWpLinkName": "Book Now"
+    }
+  ,
+  "ru":
+    {
+      "updateMessage": "Наша акция действует только до 31.01.2025.",
+      "vat": "Цены включают в себя НДС",
+      "creditCard": "Принимаем оплатну кредитной картой. Дополнительная плата не взимается!",
+      "wpLink": "Записаться",
+      "footerPointLinkName": "Локация",
+      "footerWpLinkName": "Запись"
+    }
+}

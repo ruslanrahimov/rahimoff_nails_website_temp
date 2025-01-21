@@ -1,15 +1,64 @@
-const getPrices = (fileName) => async () => {
-  try {
-    const response = await fetch(`../data/${fileName}.json`);
-    if (!response.ok) {
-      throw new Error(`Failed to fetch data: ${response.statusText}`);
-    }
-    return await response.json();
-  } catch (error) {
-    console.error(`Error fetching ${fileName}:`, error);
-    return null;
+import extras from '../data/extras.json';
+import hands from '../data/hands.json'
+import foots from '../data/foots.json';
+import info from '../data/info.json';
+
+const languagesArray = ["tr", "en", "ru"];
+
+const select = document.querySelector(".select-language");
+
+select.addEventListener("change", changeURLLanguage);
+
+function changeURLLanguage() {
+  let lang = select.value;
+  location.href = `${location.pathname}#${lang}`;
+  location.reload();
+}
+
+function changeLanguage() {
+  let hash = window.location.hash;
+  hash = hash.substring(1);
+  if (!languagesArray.includes(hash)) {
+    hash = "tr";
   }
-};
+  select.value = hash;
+  const data = info[hash];
+  document.querySelector(".appoint__button").innerHTML = data.wpLink;
+  document.querySelector(".update-date").innerHTML = data.updateMessage;
+  document.querySelector(".vat").innerHTML = data.vat;
+  document.querySelector(".credit-card").innerHTML = data.creditCard;
+}
+
+changeLanguage();
+
+
+// Mobile Menu Handler
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Store menu container
+  const mobileMenu = document.getElementById('mobile-menu');
+  // Store Trigger
+  const mobileBtn = document.getElementById('mobile-footer-btn');
+  const rotation = document.querySelector('.mobile-btn-close');
+
+  mobileBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+
+    if (mobileMenu.classList.contains('mobile-menu-hide') || rotation.classList.contains('is-rotating')) {
+      mobileMenu.classList.remove('mobile-menu-hide');
+      mobileMenu.classList.add('mobile-menu-show');
+      rotation.classList.remove('is-rotating');
+      rotation.classList.add('is-rotating-back');
+    } else {
+      mobileMenu.classList.remove('mobile-menu-show');
+      mobileMenu.classList.add('mobile-menu-hide');
+      rotation.classList.remove('is-rotating-back');
+      rotation.classList.add('is-rotating');
+    }
+  });
+});
+
+// Handle Prices
 
 const createTable = (data, initialHeaders) => {
   if (!Array.isArray(data) || data.length === 0) {
@@ -77,13 +126,9 @@ function setPriceList(prices, headers) {
 (async () => {
   const languageSelector = document.querySelector(".select-language");
 
-  const getHandsPrices = getPrices("hands");
-  const getFootsPrices = getPrices("foots");
-  const getExtrasPrices = getPrices("extras");
-
-  const handsPrices = await getHandsPrices();
-  const footsPrices = await getFootsPrices();
-  const extrasPrices = await getExtrasPrices();
+  const handsPrices = hands;
+  const footsPrices = foots;
+  const extrasPrices = extras;
 
   switch (languageSelector.value) {
     case "tr":
