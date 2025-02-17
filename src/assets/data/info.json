@@ -1,7 +1,7 @@
 {
   "tr":
     {
-      "updateMessage": "Kampanyamız sadece 01.02.2025 kadar geçerlidir",
+      "updateMessage": "Kampanyamız sadece 01.03.2025 kadar geçerlidir",
       "vat": "Nakit ödemelerde ekstra %10 indirim",
       "creditCard": "KREDİ KARTI GEÇERLİDİR VE EKSTRA ÜCRET YOK!",
       "wpLink": "Randevu Al",
@@ -11,7 +11,7 @@
   ,
   "en":
     {
-      "updateMessage": "Our offers are only valid until 01.02.2025.",
+      "updateMessage": "Our offers are only valid until 01.03.2025.",
       "vat": "Extra 10% discount for cash payments",
       "creditCard": "Accepting credit card payments and no extra charges!",
       "wpLink": "Book Now",
@@ -21,7 +21,7 @@
   ,
   "ru":
     {
-      "updateMessage": "Наша акция действует только до 01.02.2025.",
+      "updateMessage": "Наша акция действует только до 01.03.2025.",
       "vat": "Дополнительная скидка 10% при оплате наличными",
       "creditCard": "Принимаем оплатну кредитной картой. Дополнительная плата не взимается!",
       "wpLink": "Записаться",
