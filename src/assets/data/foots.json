@@ -8,13 +8,6 @@
       "newPrice": 750
     },
     {
-      "service": "Medikal Pedikür",
-      "description":"Ayak sağlığına özel olarak hazırlanmış derinlemesine bir bakım. Hassas ayak problemlerine çözüm sunan kapsamlı bir hizmettir.",
-      "extras":"Dahil Olan Hizmetler: Nasırların temizlenmesi, çatlakların bakımı, Onikoliz",
-      "oldPrice": 1000,
-      "newPrice": ""
-    },
-    {
       "service": "Kalıcı Oje",
       "description": "Bu işlem, ayak tırnaklarınıza doğal ve şık bir görünüm kazandırırken uzun süre bozulmayan bir estetik sağlar",
       "extras": "Dahil Olan Hizmetler: Pedikür, Ayak tırnaklarına özel formüle edilmiş, sağlığa uygun ve dayanıklı ürünler ile kalıcı oje uygulaması",
@@ -31,13 +24,6 @@
       "newPrice": 750
     },
     {
-      "service": "Pedicure Medical",
-      "description": "A deep care treatment tailored to foot health. A comprehensive service designed to address sensitive foot issues.",
-      "extras":"Included Services: Removal of calluses, Care for cracks, Onycholysis",
-      "oldPrice": 1000,
-      "newPrice": ""
-    },
-    {
       "service": "Gel polish",
       "description": "This treatment enhances the natural beauty of your toenails, ensuring a polished look that lasts for weeks.",
       "extras":"Included Services: Pedicure, Application of gel polish using specially formulated, durable, and foot-friendly products",
@@ -52,13 +38,6 @@
       "extras":"",
       "oldPrice": 800,
       "newPrice": 750
-    },
-    {
-      "service": "Медицинский педикюр",
-      "description": "Глубокий уход, направленный на здоровье ног.",
-      "extras":"Включенные услуги: Удаление мозолей, Уход за трещинами, Онихолизис ",
-      "oldPrice": 1000,
-      "newPrice": ""
     },
     {
       "service": "Педикюр с покрытием",
